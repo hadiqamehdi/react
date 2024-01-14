@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './component/Footer';
 import Header from './component/Header';
-import RouterComponent from './component/Router';
+import Routerss from './component/Router';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Header />
 
         <main style={mainStyle}>
-          <RouterComponent />
+          <Routerss />
         </main>
 
         <Footer />

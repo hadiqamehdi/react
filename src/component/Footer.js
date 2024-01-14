@@ -27,6 +27,11 @@ const Footer = () => {
     margin: "0 auto",
   };
 
+  const linkStyle = {
+    color: "#fff", // Set link color to white
+    textDecoration: "none",
+  };
+
   return (
     <footer style={footerStyle}>
       <div style={contentStyle}>
@@ -38,9 +43,9 @@ const Footer = () => {
         <div>
           <h3>Links</h3>
           <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about" style={linkStyle}>About</a></li>
+            <li><a href="/services" style={linkStyle}>Services</a></li>
+            <li><a href="/contact" style={linkStyle}>Contact</a></li>
           </ul>
         </div>
         <div>
