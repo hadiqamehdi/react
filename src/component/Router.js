@@ -4,6 +4,8 @@ import Login from './Login';
 import Counter from './Counter';
 import Reg from './Reg';
 import Home from './Home';
+import AboutUs from './AboutUs';
+import Contact from './Contact';
 
 
 
@@ -16,6 +18,8 @@ const Routerss = () => {
       <Route path="/counter" element={<Counter />} />
       <Route path="/registration" element={<Reg />} />
       <Route path="/" element={<Home />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/AboutUs" element={<AboutUs />} />
       
     </Routes>
   );
